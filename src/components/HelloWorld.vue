@@ -31,11 +31,17 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { Route } from 'vue-router';
 
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
+
+  @Watch('$route')
+  private async onParamChanged(newRoute: Route, oldRoute: Route) {
+    console.log(oldRoute, newRoute);
+  }
 }
 </script>
 
