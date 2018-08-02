@@ -17,13 +17,14 @@
   "devDependencies": {
     "@types/chai": "^4.1.0",
     "@types/mocha": "^2.2.46",
-    "@vue/cli-plugin-typescript": "^3.0.0-rc.3",
-    "@vue/cli-plugin-unit-mocha": "^3.0.0-rc.3",
-    "@vue/cli-service": "^3.0.0-rc.3",
-    "@vue/test-utils": "^1.0.0-beta.20",
+    "@vue/cli-plugin-typescript": "^3.0.0-rc.10",
+    "@vue/cli-plugin-unit-mocha": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "@vue/test-utils": "^1.0.0-beta.21",
     "chai": "^4.1.2",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "typescript": "^3.0.0",
     "vue-template-compiler": "^2.5.16"
   },
   "browserslist": [
